@@ -6,7 +6,19 @@
 
   },
 
+  "jest": {
+
+    "verbose": true,
+
+    "preset": "jest-puppeteer"
+
+  },
+
   "dependencies": {
+
+    "expect-puppeteer": "^5.0.4",
+
+    "jest-puppeteer": "^5.0.4",
 
     "node-fetch": "^2.6.1"
 
